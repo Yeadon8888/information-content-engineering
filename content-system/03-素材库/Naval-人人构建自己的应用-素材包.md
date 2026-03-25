@@ -161,9 +161,27 @@
 - Naval
 - 产品生态
 
+## 相关配图
+
+### 配图1：Naval 观点原图
+
+- 链接：https://tuchuang-api.yeadon8888.workers.dev/file/1774449422636-yjzpg6.png
+- 类型：观点配图 / 推文截图 / 原始视觉素材
+- 用途：
+  - 公众号正文配图
+  - 选题素材证明
+  - 短内容封面参考
+  - 口播截图素材
+- 适用场景：
+  - 人人构建自己的应用
+  - 个人软件工厂
+  - App Generator
+  - AI 应用生态
+
 ## 原始链接归档
 
 - X（Naval）：https://x.com/naval/status/2036768607074406606?s=20
+- 配图（Naval 观点原图）：https://tuchuang-api.yeadon8888.workers.dev/file/1774449422636-yjzpg6.png
 
 ## 备注
 
