@@ -270,3 +270,73 @@ skill 根目录对应 GitHub 仓库。修改系统文件前先同步远端；如
 | `/检索 [主题]` | 创作前检索旧资产 |
 | `/发布复盘 [文件名]` | 归档文稿并追加复盘模板 |
 | `/沉淀 [观察]` | 把规律写回素材库和方法论 |
+
+## Content System Source of Truth
+
+This skill now uses a **single source of truth** for all content assets:
+
+`content-system/`
+
+Inside it:
+- `01-选题库/` → topic backlog and topic planning
+- `02-已发布/` → published articles and key cover assets
+- `03-素材库/` → material packs, hooks, quotes, cases, expression assets
+- `04-方法论/` → templates, framework notes, iteration records
+
+### Obsidian Relationship
+
+Obsidian is the **viewing and editing surface**, not a second independent content database.
+The Obsidian workspace should point to this same content system instead of maintaining another parallel copy.
+
+Rule:
+- Write content into `content-system/` first
+- Let Obsidian reflect this same directory
+- Do not create a second diverging version of topic/material libraries elsewhere
+
+### Writing Rules
+
+When adding new content:
+- New topic ideas should go into `content-system/01-选题库/`
+- Published articles should go into `content-system/02-已发布/`
+- New material packs, hooks, quotes, cases, and structured references should go into `content-system/03-素材库/`
+- Templates, frameworks, and reusable process notes should go into `content-system/04-方法论/`
+
+Prefer adding to the existing content system rather than creating ad hoc markdown files outside it.
+
+### Git Workflow
+
+This skill is Git-managed and synced to GitHub.
+Repository remote:
+- `https://github.com/Yeadon8888/wechat-article-writing-skill.git`
+
+Default Git policy:
+- Do **not** auto-commit every tiny note immediately
+- Use **batch commits** after a coherent content update is complete
+- Commit when one of these is true:
+  - a batch of topics has been organized
+  - a material pack has been added or updated
+  - a published article has been archived
+  - a framework/template/methodology has been updated
+  - the directory structure or indexing has been changed
+
+Recommended commit style:
+- `Add new material packs for <topic>`
+- `Update topic backlog and content indexes`
+- `Archive published article: <title>`
+- `Refine content system structure`
+
+### Operational Intent
+
+The purpose of this skill is not only to generate articles.
+It is to maintain a long-lived, reusable content operating system where:
+- ideas become topics
+- topics connect to materials
+- materials support drafts
+- drafts become published work
+- published work feeds future materials and methods
+
+In short:
+- `content-system/` is the main library
+- Obsidian is the working surface
+- GitHub is the versioned backup and sync layer
+
