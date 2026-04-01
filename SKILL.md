@@ -306,8 +306,8 @@ Prefer adding to the existing content system rather than creating ad hoc markdow
 ### Git Workflow
 
 This skill is Git-managed and synced to GitHub.
-Current repository remote during soft migration:
-- `https://github.com/Yeadon8888/wechat-article-writing-skill.git`
+Current repository remote:
+- `https://github.com/Yeadon8888/information-content-engineering.git`
 
 Default Git policy:
 - Do **not** auto-commit every tiny note immediately

@@ -2,7 +2,7 @@
 
 **信息与内容工程系统**
 
-这是原 `wechat-article-writing` skill 的软迁移版本。
+这是已经完成重命名迁移后的正式版本。
 
 当前这套系统已经不再按单一写作工具理解，而是按一套更完整的长期系统来使用：
 
@@ -18,18 +18,14 @@
 
 ## 当前状态
 
-当前已完成的是**软迁移**：
+当前已完成的是**迁移落地**：
 
 - 系统名统一为 `information-content-engineering`
 - 中文定位统一为 **信息与内容工程系统**
+- 本地目录已经迁移到新名字
+- GitHub 仓库已经切到新名字
 - `content-system/` 明确为唯一主库
 - `SKILL.md` 与内容系统说明已按新口径更新
-
-当前尚未执行的是**硬迁移**：
-
-- 本地目录名暂时仍为 `wechat-article-writing`
-- GitHub 仓库名暂时仍未改名
-- 旧路径仍然保留，用于兼容现有脚本、Obsidian 接入和 Git 同步链路
 
 ## 目录结构
 
@@ -60,12 +56,12 @@ Obsidian 是查看和编辑界面，不是第二套独立数据库。
 
 ## Migration Note
 
-当前仓库路径仍然是：
+当前仓库路径已经是：
 
-`~/.agents/skills/wechat-article-writing`
+`~/.agents/skills/information-content-engineering`
 
-但从定位和使用方式上，它已经按下面这个名字来理解：
+当前 GitHub 仓库也已经切到：
 
-`information-content-engineering`
+`https://github.com/Yeadon8888/information-content-engineering`
 
-后续等仓库状态干净、脚本引用和 GitHub 侧准备好后，再执行目录名和仓库名的硬迁移。
+后续只需要继续清理历史说明、旧路径引用和个别兼容脚本即可。

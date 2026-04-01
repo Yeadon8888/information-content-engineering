@@ -2,16 +2,15 @@
 
 这里是这套 skill 的主内容系统，也是唯一主库。
 
-当前软迁移口径如下：
+当前迁移已经落地，口径如下：
 
 - 旧 skill 名：`wechat-article-writing`
 - 新系统名：`information-content-engineering`
 - 中文定位：**信息与内容工程系统**
 
-这次迁移先做软迁移，不立即改目录名。
-也就是说，当前仓库路径暂时仍然是：
+当前仓库路径已经是：
 
-`~/.agents/skills/wechat-article-writing`
+`~/.agents/skills/information-content-engineering`
 
 但系统定位、说明文案、后续对外表述，统一按下面这套理解：
 
@@ -35,12 +34,12 @@
 3. Obsidian 只映射和编辑这套主库
 4. Git 提交采用批量整理后再提交，不做每条内容都单独 commit
 
-## 后续硬迁移范围
+## 当前收尾范围
 
-等仓库状态干净后，再做下一步：
+当前硬迁移已经完成，剩余工作是收尾：
 
-- 本地目录名从 `wechat-article-writing` 改到 `information-content-engineering`
-- GitHub 仓库名同步改名
 - 更新所有引用旧路径的脚本、说明和链接
+- 清理还保留在说明文件里的历史旧名
+- 确认 Obsidian、脚本和外部入口都已切到新路径
 
-在那之前，这里就是唯一主库，按新名字理解，按旧路径运行。
+这里仍然是唯一主库，按新名字理解，也按新路径运行。
